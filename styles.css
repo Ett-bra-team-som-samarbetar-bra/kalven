@@ -5,14 +5,99 @@
 }
 
 body {
-    height: 100vh;
-    background-color: #21313C;
+
+    /*   background-color: #21313C; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px;
+}
+
+.hero {
+    height: 20vh;
+    color: #21313C;
+    font-size: 20px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 h1 {
     font-size: 100px;
-    color: white;
+    color: #21313C;
     text-align: center;
-    line-break:auto;
+    line-break: auto;
     word-break: break-word;
+}
+
+.img-one {
+    height: 50vh;
+    background: url(./graphimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-two {
+    height: 70vh;
+    background:
+
+        url(./sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-one {
+    height: 60vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#div-one div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-one div p {
+    font-size: 40px;
+    padding-inline: 100px;
+    margin-left: 200px;
+    text-align: right;
+
+}
+
+
+#div-two {
+    height: 60vh;
+    background-color: #21313C;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+#div-two div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-two div p {
+    font-size: 40px;
+    padding-inline: 100px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+#div-three {
+    display: flex;
 }
