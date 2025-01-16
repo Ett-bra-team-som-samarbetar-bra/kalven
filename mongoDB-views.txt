@@ -1,0 +1,169 @@
+
+"TotalSalesPerCategory"
+[
+  {
+    $match: {
+      Category: {
+        $ne: null
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$Category",
+      TotalSold: {
+        $sum: "$Quantity"
+      },
+      TotalRevenue: {
+        $sum: {
+          $multiply: [
+            {
+              $ifNull: ["$Quantity", 0]
+            },
+            {
+              $ifNull: ["$Price", 0]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    $sort: {
+      TotalRevenue: -1
+    }
+  },
+  {
+    $limit: 5
+  }
+]
+
+
+"HourlySales"
+[
+  {
+    $group: {
+      _id: {
+        $hour: "$SaleTimestamp"
+      },
+      TotalSold: {
+        $sum: "$Quantity"
+      }
+    }
+  },
+  {
+    $sort: {
+      TotalSold: -1
+    }
+  }
+]
+
+
+"ProductVariety"
+[
+  {
+    $match: {
+      ProductID: {
+        $ne: null
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$ProductID",
+      ProductCount: {
+        $sum: 1
+      }
+    }
+  },
+  {
+    $sort: {
+      ProductCount: -1
+    }
+  }
+]
+
+
+"SalesByDate"
+[
+  {
+    $match: {
+      SaleTimestamp: {
+        $ne: null
+      }
+    }
+  },
+  {
+    $group: {
+      _id: {
+        $dateToString: {
+          format: "%Y-%m-%d",
+          date: "$SaleTimestamp"
+        }
+      },
+      TotalSold: {
+        $sum: "$Quantity"
+      },
+      TotalRevenue: {
+        $sum: {
+          $multiply: ["$Quantity", "$Price"]
+        }
+      }
+    }
+  },
+  {
+    $sort: {
+      _id: -1
+    }
+  },
+  {
+    $limit: 30
+  }
+]
+
+
+"TopSellingProducts"
+[
+  {
+    $group: {
+      _id: "$ProductName",
+      TotalSold: {
+        $sum: "$Quantity"
+      }
+    }
+  },
+  {
+    $sort: {
+      TotalSold: -1
+    }
+  },
+  {
+    $limit: 5
+  }
+]
+
+
+"AverageRevenuePerSale"
+[
+  {
+    $group: {
+      _id: null,
+      totalRevenue: {
+        $sum: {
+          $multiply: ["$Quantity", "$Price"]
+        }
+      },
+      totalSales: {
+        $sum: 1
+      }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      AverageRevenuePerSale: {
+        $divide: ["$totalRevenue", "$totalSales"]
+      }
+    }
+  }
+]
