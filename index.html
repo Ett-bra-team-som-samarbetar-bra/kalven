@@ -13,8 +13,17 @@
     <h1 class="header">Storkalven @ Kalvensdatabas</h1>
 
     <div class="hero">
-        <h2>Arbete av: Jesper, Viktor, Nicole, Joakim B</h2>
+        <div class="container">
+            <button id="toggleButton">Visa hela dashboarden</button>
+        </div>
+
+        <div class="iframe-container" id="iframeContainer">
+            <button class="close-btn" id="closeButton">&times;</button>
+            <iframe class="iframe-big"
+                src="https://charts.mongodb.com/charts-project-0-xhichml/embed/dashboards?id=67865cd4-01eb-49f0-8f4b-97d126e1ffb6&theme=dark&autoRefresh=true&maxDataAge=3600&showTitleAndDesc=false&scalingWidth=scale&scalingHeight=scale"></iframe>
+        </div>
     </div>
+
 
     <div class="img-one">
     </div>
@@ -56,16 +65,19 @@
         <div>
             <p> Våra största leverantörer</p>
         </div>
+    </div>
 
-        <iframe style="background: #21313C;border: none;" width="640" height="480"
-            src="https://charts.mongodb.com/charts-project-0-xhichml/embed/charts?id=11a77616-faeb-41de-bcc4-d501508a3eda&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
+
+    <div id="div-three">
         <div>
             <p>Genomsnittlig försäljning per timme</p>
         </div>
+        <iframe style="background: #21313C;border: none;" width="640" height="480"
+            src="https://charts.mongodb.com/charts-project-0-xhichml/embed/charts?id=11a77616-faeb-41de-bcc4-d501508a3eda&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
 
     </div>
 
-    <div id="div-three">
+    <div id="div-four">
         <iframe
             style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"
             width="640" height="480"
@@ -83,7 +95,29 @@
 
     </div>
 
-    
+    <footer>
+        Länk till vår Dashboard: <a
+            href="https://charts.mongodb.com/charts-project-0-xhichml/public/dashboards/67865cd4-01eb-49f0-8f4b-97d126e1ffb6"
+            target="_blank">
+            Atlas Charts
+        </a>
+        <p id="footer-P">Arbete av: Jesper, Viktor, Nicole, Joakim B</p>
+    </footer>
+
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const iframeContainer = document.getElementById('iframeContainer');
+        const closeButton = document.getElementById('closeButton');
+
+        toggleButton.addEventListener('click', () => {
+            iframeContainer.style.display = 'flex';
+        });
+
+        closeButton.addEventListener('click', () => {
+            iframeContainer.style.display = 'none';
+        });
+    </script>
 </body>
 
 </html>
