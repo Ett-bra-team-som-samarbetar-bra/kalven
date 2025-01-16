@@ -1,0 +1,125 @@
+[{
+  "_id": 2,
+  "AverageSoldPerHour": 54.16,
+  "TotalSold": 1354
+},
+{
+  "_id": 15,
+  "AverageSoldPerHour": 52.32,
+  "TotalSold": 1308
+},
+{
+  "_id": 18,
+  "AverageSoldPerHour": 51.72,
+  "TotalSold": 1293
+},
+{
+  "_id": 3,
+  "AverageSoldPerHour": 50.68,
+  "TotalSold": 1267
+},
+{
+  "_id": 10,
+  "AverageSoldPerHour": 50.44,
+  "TotalSold": 1261
+},
+{
+  "_id": 16,
+  "AverageSoldPerHour": 48.6,
+  "TotalSold": 1215
+},
+{
+  "_id": 23,
+  "AverageSoldPerHour": 48.24,
+  "TotalSold": 1206
+},
+{
+  "_id": 4,
+  "AverageSoldPerHour": 48.04,
+  "TotalSold": 1201
+},
+{
+  "_id": 13,
+  "AverageSoldPerHour": 47.88,
+  "TotalSold": 1197
+},
+{
+  "_id": 0,
+  "AverageSoldPerHour": 47.76,
+  "TotalSold": 1194
+},
+{
+  "_id": 21,
+  "AverageSoldPerHour": 46.36,
+  "TotalSold": 1159
+},
+{
+  "_id": 12,
+  "AverageSoldPerHour": 46,
+  "TotalSold": 1150
+},
+{
+  "_id": 8,
+  "AverageSoldPerHour": 44.64,
+  "TotalSold": 1116
+},
+{
+  "_id": 9,
+  "AverageSoldPerHour": 44.24,
+  "TotalSold": 1106
+},
+{
+  "_id": 5,
+  "AverageSoldPerHour": 43.24,
+  "TotalSold": 1081
+},
+{
+  "_id": 19,
+  "AverageSoldPerHour": 39.88,
+  "TotalSold": 997
+},
+{
+  "_id": 1,
+  "AverageSoldPerHour": 38.6,
+  "TotalSold": 965
+},
+{
+  "_id": 14,
+  "AverageSoldPerHour": 37.08,
+  "TotalSold": 927
+},
+{
+  "_id": 22,
+  "AverageSoldPerHour": 36.76,
+  "TotalSold": 919
+},
+{
+  "_id": 17,
+  "AverageSoldPerHour": 34.56,
+  "TotalSold": 864
+},
+{
+  "_id": 20,
+  "AverageSoldPerHour": 31.12,
+  "TotalSold": 778
+},
+{
+  "_id": 7,
+  "AverageSoldPerHour": 30.36,
+  "TotalSold": 759
+},
+{
+  "_id": 6,
+  "AverageSoldPerHour": 27.64,
+  "TotalSold": 691
+},
+{
+  "_id": 11,
+  "AverageSoldPerHour": 22.8,
+  "TotalSold": 570
+},
+{
+  "_id": null,
+  "AverageSoldPerHour": 0,
+  "TotalSold": 0
+}]
