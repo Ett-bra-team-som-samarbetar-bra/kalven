@@ -1,0 +1,27 @@
+[{
+  "_id": "Candy",
+  "TotalSold": 6042,
+  "TotalRevenue": 62923.7
+},
+{
+  "_id": "Juice",
+  "TotalSold": 5314,
+  "TotalRevenue": 57772.56
+},
+{
+  "_id": "Soda",
+  "TotalSold": 4806,
+  "TotalRevenue": {
+    "$numberDecimal": "48187.40999999999960410335120286618"
+  }
+},
+{
+  "_id": "Cookies",
+  "TotalSold": 4545,
+  "TotalRevenue": 48024.93
+},
+{
+  "_id": "Snacks",
+  "TotalSold": 4871,
+  "TotalRevenue": 47627.08
+}]

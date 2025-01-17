@@ -1,0 +1,152 @@
+[{
+  "_id": "2025-01-15",
+  "TotalSold": 20,
+  "TotalRevenue": {
+    "$numberDecimal": "382.40"
+  }
+},
+{
+  "_id": "2023-12-30",
+  "TotalSold": 88,
+  "TotalRevenue": 959.45
+},
+{
+  "_id": "2023-12-29",
+  "TotalSold": 48,
+  "TotalRevenue": 530.1600000000001
+},
+{
+  "_id": "2023-12-28",
+  "TotalSold": 107,
+  "TotalRevenue": 777.71
+},
+{
+  "_id": "2023-12-27",
+  "TotalSold": 67,
+  "TotalRevenue": 412.66999999999996
+},
+{
+  "_id": "2023-12-26",
+  "TotalSold": 122,
+  "TotalRevenue": 1244.15
+},
+{
+  "_id": "2023-12-25",
+  "TotalSold": 93,
+  "TotalRevenue": 1053.8200000000002
+},
+{
+  "_id": "2023-12-24",
+  "TotalSold": 97,
+  "TotalRevenue": 1178.06
+},
+{
+  "_id": "2023-12-23",
+  "TotalSold": 122,
+  "TotalRevenue": 1331.1
+},
+{
+  "_id": "2023-12-22",
+  "TotalSold": 71,
+  "TotalRevenue": 371.22
+},
+{
+  "_id": "2023-12-21",
+  "TotalSold": 12,
+  "TotalRevenue": 80.16
+},
+{
+  "_id": "2023-12-20",
+  "TotalSold": 41,
+  "TotalRevenue": 228.24
+},
+{
+  "_id": "2023-12-19",
+  "TotalSold": 108,
+  "TotalRevenue": 1154.01
+},
+{
+  "_id": "2023-12-18",
+  "TotalSold": 83,
+  "TotalRevenue": 426.47
+},
+{
+  "_id": "2023-12-17",
+  "TotalSold": 108,
+  "TotalRevenue": 943.64
+},
+{
+  "_id": "2023-12-16",
+  "TotalSold": 124,
+  "TotalRevenue": 1100.3600000000001
+},
+{
+  "_id": "2023-12-15",
+  "TotalSold": 115,
+  "TotalRevenue": 1476.92
+},
+{
+  "_id": "2023-12-14",
+  "TotalSold": 106,
+  "TotalRevenue": 1219.69
+},
+{
+  "_id": "2023-12-13",
+  "TotalSold": 91,
+  "TotalRevenue": 961.7700000000001
+},
+{
+  "_id": "2023-12-12",
+  "TotalSold": 70,
+  "TotalRevenue": 284.9
+},
+{
+  "_id": "2023-12-11",
+  "TotalSold": 65,
+  "TotalRevenue": 976.1999999999999
+},
+{
+  "_id": "2023-12-09",
+  "TotalSold": 23,
+  "TotalRevenue": 232.29999999999998
+},
+{
+  "_id": "2023-12-08",
+  "TotalSold": 82,
+  "TotalRevenue": 634.6899999999999
+},
+{
+  "_id": "2023-12-07",
+  "TotalSold": 34,
+  "TotalRevenue": 398.14000000000004
+},
+{
+  "_id": "2023-12-06",
+  "TotalSold": 2,
+  "TotalRevenue": 28.44
+},
+{
+  "_id": "2023-12-05",
+  "TotalSold": 85,
+  "TotalRevenue": 1141.92
+},
+{
+  "_id": "2023-12-04",
+  "TotalSold": 7,
+  "TotalRevenue": 99.43
+},
+{
+  "_id": "2023-12-03",
+  "TotalSold": 77,
+  "TotalRevenue": 586.46
+},
+{
+  "_id": "2023-12-02",
+  "TotalSold": 87,
+  "TotalRevenue": 937.96
+},
+{
+  "_id": "2023-12-01",
+  "TotalSold": 16,
+  "TotalRevenue": 192.8
+}]
