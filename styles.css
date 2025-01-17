@@ -40,7 +40,8 @@ h1 {
 
 .img-one {
     height: 50vh;
-    background: url(./graphimg.jpg);
+    background:
+        url(./graphimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -49,29 +50,40 @@ h1 {
 .img-two {
     height: 70vh;
     background:
-
+        linear-gradient(2deg, rgba(219, 61, 61, 0) 90%, #ffffff 90%),
+        linear-gradient(2deg, #21313C 10%, rgba(219, 61, 61, 0) 10%),
         url(./sunrise.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#div-one {
-    height: 60vh;
-    background-color: #FFFFFF;
+.right-aligned {
+
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+.left-aligned {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.white-container {
+    height: 60vh;
+    background-color: #FFFFFF;
 
 }
 
-#div-one div {
+.white-container div {
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#div-one div p {
+.white-container div p {
     font-size: 40px;
     padding-inline: 100px;
     margin-left: 200px;
@@ -79,23 +91,18 @@ h1 {
 
 }
 
-
-#div-two {
+.dark-container {
     height: 60vh;
     background-color: #21313C;
-    display: flex;
-    justify-content: left;
-    padding: 20px;
 }
 
-#div-two div {
-
+.dark-container div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
-#div-two div p {
+.dark-container div p {
     font-size: 40px;
     padding-inline: 100px;
     text-align: right;
@@ -107,10 +114,9 @@ h1 {
     height: 60vh;
     background-color: #21313C;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     padding: 20px;
 }
-
 
 #div-three div {
 
@@ -123,16 +129,12 @@ h1 {
     font-size: 40px;
     padding-inline: 100px;
     text-align: right;
-    color:  #FFFFFF;
-
+    color: #FFFFFF;
 }
-
-
 
 #div-four {
     display: flex;
 }
-
 
 button {
     padding: 20px 30px;
@@ -178,7 +180,7 @@ button:hover {
     background-color: #FF4C4C;
     color: white;
     border: none;
-    padding:20px;
+    padding: 20px;
     font-size: 18px;
     cursor: pointer;
     text-align: center;
@@ -206,3 +208,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
